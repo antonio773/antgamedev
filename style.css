@@ -1,0 +1,58 @@
+
+body{
+    background-color: ghostwhite;
+    margin: 1px;
+}
+#table{
+  width: 100%;
+  border: 1px solid black;
+  text-align: center;
+  background-color: darkgray;
+}
+#inicio{
+    border: 1px solid darkgray;
+    border-right-color: dimgray;
+}
+#jogos{
+  border: 1px solid darkgray;
+  border-right-color: dimgray;
+}
+#youtube{
+  border: 1px solid darkgray;
+  border-right-color: dimgray;
+}
+#contato{
+  border: 1px solid darkgray;
+}
+#div_table{
+  width: 100%;
+}
+#introducao{
+  width: 100%;
+  text-align: center;
+  background-color: darkgray;
+}
+#mark1{
+ background-color: dimgray;
+}
+#mark2{
+  background-color: dimgray;
+}
+#mark3{
+  background-color: dimgray;
+}
+#div_gif{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#gato{
+  width: 10%;
+  height: 10%;
+}
+#alien{
+  width: 10%;
+  height: 10%;
+}
+
+

@@ -1,0 +1,45 @@
+body{
+  background-color: ghostwhite;
+  margin: 1px;
+}
+#table{
+  width: 100%;
+  border: 1px solid black;
+  text-align: center;
+  background-color: darkgray;
+}
+#inicio{
+    border: 1px solid darkgray;
+    border-right-color: dimgray;
+}
+#jogos{
+  border: 1px solid darkgray;
+  border-right-color: dimgray;
+}
+#youtube{
+  border: 1px solid darkgray;
+  border-right-color: dimgray;
+}
+#contato{
+  border: 1px solid darkgray;
+}
+#jogo1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#img_game1{
+  width: 100%;
+  margin: 1px;
+  border: 1px solid black;
+}
+#game_name{
+  width: 100%;
+  text-align: center;
+  background-color: darkgray;
+}
+#descricao_game1{
+  width: 100%;
+  text-align: center;
+  background-color: darkgray;
+}

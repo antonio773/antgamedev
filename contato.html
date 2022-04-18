@@ -1,0 +1,78 @@
+    <html>
+        <head>
+            <title>antônio gamedev</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width,user-scalable=no">
+        </head>
+        <body>
+          <div id="div_table">
+            <table id="table">
+              <tr>
+                <th id="inicio" onclick="ini_click()">inicio</th>
+                <th id="jogos" onclick="jogo_click()">jogos</th>
+                <th id="youtube" onclick="youtube_click()">youtube</th>
+                <th id="contato" onclick="contato_click()">contato</th>
+              </tr>
+            </table>
+         </div>
+         <div id="main">
+           <img src="gmail-logo.png" id="img">
+           <a href="mailto:antleo195@gmail.com" id="clique">clique aqui e me envie um email</a>
+         </div>
+            <style>
+ body{
+  background-color: ghostwhite;
+  margin: 1px;
+}
+#main{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3px;
+}
+#img{
+  width: 20%;
+  height: 10%;
+}
+#clique{
+  color: orangered;
+}
+#table{
+  width: 100%;
+  border: 1px solid black;
+  text-align: center;
+  background-color: darkgray;
+}
+#inicio{
+    border: 1px solid darkgray;
+    border-right-color: dimgray;
+}
+#jogos{
+  border: 1px solid darkgray;
+  border-right-color: dimgray;
+}
+#youtube{
+  border: 1px solid darkgray;
+  border-right-color: dimgray;
+}
+#contato{
+  border: 1px solid darkgray;
+}
+         </style>
+            <script>
+function ini_click(){
+  window.open("index.html");
+}
+function jogo_click(){
+ window.open("jogos.html");
+}
+function youtube_click(){
+window.open("https://youtube.com/channel/UCtYajtzQNrdLsYL19VXZppQ");
+}
+function contato_click(){
+  console.log("contato");
+}
+            </script>
+        </body>
+    </html>
